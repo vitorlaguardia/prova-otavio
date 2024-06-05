@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+    body {
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+}
+
+.main-content-ajuste {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-content {
+    height: 550px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+legend {
+    text-align: center;
+    color: white;
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    background-color: dodgerblue;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+form {
+    height: 100%;
+}
+
+fieldset {
+    border: 3px solid dodgerblue; 
+    height: 95%;
+}
+
+.divs-inputs {
+    position: relative;
+}
+
+label {
+    color: aliceblue;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+    font-size: 17px;
+}
+
+input {
+   background: none;
+   border: none;
+   border-bottom: 1px solid white;
+   outline: none;
+   color: white;
+   font-size: 15px;
+   width: 100%;
+   letter-spacing: 2px;
+   margin-bottom: 25px;
+}
+
+input:focus ~ label {
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+#registrar {
+    width: 170px;
+    height: 40px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    cursor: grab;
+    transition: 0.6s;
+}
+
+#registrar:hover {
+    background-color: gold;
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+tbody {
+    width: 2000px;
+}
+
+th {
+    width: 60px;
+}
+
+.tabela-div {
+    height: 300px;
+    width: 600px;
+    margin-top: 50px;
+}
+
+#limparTabela {
+    width: 150px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: gold;    
+    border: 0px;
+    border-radius: 7px;
+    transition: 0.6s;
+    cursor: grab;
+    font-weight: bold;
+}
+
+#limparTabela:hover {
+    background-color: aliceblue;
+}
+
